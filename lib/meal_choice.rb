@@ -1,8 +1,11 @@
 # Your code here
 
 def meal_choice (veg1, veg2, protein = 'meat')
-  puts "What a nutritious meal!"
-  puts "A plate of #{protein} with #{veg1} and #{veg2}."
+  meal_statement = "What a nutritious meal!"
+  puts meal_statement
+  meal_selection = "A plate of #{protein} with #{veg1} and #{veg2}."
+  puts meal_selection
+  meal_statement + meal_statement
 end
 
 
